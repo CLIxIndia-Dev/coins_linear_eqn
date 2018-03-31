@@ -1,0 +1,2 @@
+# coins_linear_eqn
+This is a tool to form linear equations with number of coins and total amount of the coins if you have two varieties of them. You can select the choice of coins on the right panel (round buttons for 1, 2, 5 and 10). Once you select the coins you can see on the coins box and you can vary the number of coins. You can see the equations formed by this data which can be written/cleared on the "Board" area by clicking the suitable button.
