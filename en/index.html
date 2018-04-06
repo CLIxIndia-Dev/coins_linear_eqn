@@ -424,7 +424,7 @@ function submitData(data_log){
   {
   "appName": "coins_puzzle",
   "language" : "en",
-  "params":
+  "appData":
   {
     data_log,
     
@@ -444,7 +444,6 @@ data_string['createdAt'] = timestamp;
 data_string['sessionid'] = this.getCookie('sessionid');
 for (var key in data) {data_string[key] = data[key];};
 data_string = JSON.stringify(data_string);
-alert(data_string),
   // var csrftoken;
   // csrftoken = this.getCookie('csrftoken');
   $.ajax({
