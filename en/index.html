@@ -444,6 +444,7 @@ data_string['createdAt'] = timestamp;
 data_string['sessionid'] = this.getCookie('sessionid');
 for (var key in data) {data_string[key] = data[key];};
 data_string = JSON.stringify(data_string);
+
   // var csrftoken;
   // csrftoken = this.getCookie('csrftoken');
   $.ajax({
