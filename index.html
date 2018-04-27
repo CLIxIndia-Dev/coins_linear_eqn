@@ -196,7 +196,7 @@ $('body').on('data_log', function(event, d){
     coin_1_value: coin_1_value, coin_2_value: coin_2_value,
     coin_1_number: coin_1_number, coin_2_number: coin_2_number,
     total: total,
-    timeStamp: Date.now()
+    timeStamp: Date(Date.now())
     //event_type: d.type
   };
   data_log.push(temp);
